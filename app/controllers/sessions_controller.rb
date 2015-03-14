@@ -24,6 +24,7 @@ class SessionsController < ApplicationController
 
   def new
     # presents a login form
+    @user = User.new
     render :new
   end
 end
