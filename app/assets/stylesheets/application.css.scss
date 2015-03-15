@@ -1,2 +1,8 @@
 @import 'bootstrap';
 @import 'bootstrap-sprockets';
+
+.img-crop img {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+}
