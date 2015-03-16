@@ -1,5 +1,7 @@
-@import 'bootstrap';
-@import 'bootstrap-sprockets';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "*";
 
 .img-crop img {
   overflow: hidden;
